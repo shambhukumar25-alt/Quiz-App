@@ -1,0 +1,133 @@
+body {
+
+    color: black;
+    transition: 0.3s;
+    background: linear-gradient(90deg,
+            #a95d5d,
+            #ff7300,
+           
+            #b552a0);
+
+    overflow: hidden;
+}
+
+.dark {
+    background: linear-gradient(90deg,
+            #414b7f,
+            
+            #b552a0);
+    color: black;
+}
+
+#btn {
+    height: 3px;
+    width: 3px;
+    margin-left: 93%;
+    /* background-color: yellow; */
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 25px;
+}
+
+
+
+
+
+.tn {
+    color: black;
+}
+
+
+
+
+.bo {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.quiz-container {
+    background: linear-gradient(to right, #39FF14, #00FFFF);
+    width: 500px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.quizcontainer {
+    background: linear-gradient(90deg,
+
+
+           
+
+
+            #ff00c8);
+    width: 500px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#scoreBoard {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1f2d3d;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.option {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: #3498db;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.option:hover {
+    background: #2980b9;
+}
+
+#result {
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#nextBtn {
+    padding: 12px 25px;
+    border: none;
+    background: #27ae60;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#nextBtn:hover {
+    background: #219150;
+}
